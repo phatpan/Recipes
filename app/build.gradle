@@ -9,8 +9,8 @@ android {
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
-        //testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        testInstrumentationRunner "com.workshop.myrecipe.myrecipes.test.CustomTestRunner"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+//        testInstrumentationRunner "com.app.phatpan.recipes.CustomTestRunner"
     }
     buildTypes {
         release {

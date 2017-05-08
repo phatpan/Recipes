@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-class RecipeStore {
+public class RecipeStore {
 
     public Recipe get(int position) {
         return new Recipe(""+ position, "Title" + position, "Description");
@@ -36,7 +36,7 @@ class RecipeStore {
         return new Recipe(id, "Title" + id, "Description");
     }
 }
- class Recipe {
+ public class Recipe {
 
     private String id;
     private String title;

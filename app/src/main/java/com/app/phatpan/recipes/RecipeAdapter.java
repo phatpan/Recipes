@@ -34,7 +34,7 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeViewHolder> {
             @Override
             public void onClick(View v) {
                 Context context = holder.textView.getContext();
-                Intent intent = new Intent(context, null);
+                Intent intent = new Intent(context, RecipeActivity.class);
                 intent.putExtra("id", recipe.getId());
                 context.startActivity(intent);
             }
